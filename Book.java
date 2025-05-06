@@ -19,6 +19,11 @@ public class Book {
         totalBooks++;
     }
 
+     public void returnBook() {
+        System.out.println("Book named " + this.title + " is returned.");
+        totalBooks--;
+    }
+    
     public static int getTotalBooks() {
         return totalBooks;
     }

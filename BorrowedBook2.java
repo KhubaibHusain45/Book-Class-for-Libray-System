@@ -10,6 +10,7 @@ public class BorrowedBook2 {
         System.out.println("Title: " + newBook.title);
         System.out.println("Author: " + newBook.author);
         System.out.println("No. of total borrowed books are now: " + getTotalBooks());
+        myBook.returnBook();
 
         return true;
     }
